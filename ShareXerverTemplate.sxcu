@@ -1,0 +1,14 @@
+﻿{
+  "Version": "17.0.0",
+  "Name": "ShareXerverTemplate",
+  "DestinationType": "ImageUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://your-domain.com/shx/api/sharex.php",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "apikey": "PLEASESETYOURAPIKEYHERE"
+  },
+  "FileFormName": "upload",
+  "URL": "{json:url}",
+  "ErrorMessage": "{json:error}"
+}
